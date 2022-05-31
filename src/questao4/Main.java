@@ -8,17 +8,15 @@ public class Main {
 
         List<Contato> Agenda = new ArrayList<>();
 
-
-
-
+        inserirContato(Agenda, new Contato(1, 21,"2222222222"));
 
 
     }
 
-    public void inserirContato(List<Contato> agenda, Contato contato) {
+    public static void inserirContato(List<Contato> agenda, Contato contato) {
         agenda.add(contato);
     }
-    public void removerContato(List<Contato> agenda, Contato contato) {
+    public static void removerContato(List<Contato> agenda, Contato contato) {
         agenda.remove(contato);
     }
 
