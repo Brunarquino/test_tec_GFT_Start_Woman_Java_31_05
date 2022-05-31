@@ -32,12 +32,14 @@ public class Main {
             triangulo = "Isósceles";
 
         } else if (ladosIguais == 0) {
-            triangulo = "Não é um triangulo";
-        }else {
             triangulo = "Escaleno";
+        }else {
+            triangulo = "Não é um triangulo";
         }
 
         return triangulo;
     }
+
+
 
 }
